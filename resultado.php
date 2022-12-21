@@ -100,9 +100,7 @@
 </head>
 
 <body style="margin: 0px;">
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v4.0&appId=129688980983044&autoLogAppEvents=1"></script>
-	
+
 	<div class="ast_header_bottom">
 	<div class="container">
 		<div class="row">
@@ -132,7 +130,7 @@
 
 				<!--<a href="https://api.whatsapp.com/send?text=Sabores do Zodíaco - http://srv254.teste.website/~veracepizza/signos/ " target="_blank" style="padding-right: 10px;"><img src="https://ideiasantenadas.com.br/wp-content/uploads/2017/10/whatsappesse200x200.png" width="40" alt="" /></a>-->
 				
-				<div class="fb-share-button" data-href="http://veracepizza.com.br/saboresdozodiaco/resultado.php" data-layout="button" data-size="large" style="float: left;"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fveracepizza.com.br%2Fsaboresdozodiaco%2Fresultado.php&amp;src=sdkpreparse"><img src="images/bt-compartilhar.png" alt="" /></a></div>
+				<div class="share-button" data-layout="button" data-size="large" style="float: left;"><a target="_blank"><img src="images/bt-compartilhar.png" alt="" /></a></div>
 
 			</p>
 
@@ -148,6 +146,23 @@
 	</form>
 	
 
-	
+	<script>
+		const shareData = {
+			title: 'Sabores do Zodíaco - Verace Pizza',
+			text: 'Teste de compartilhamento com textinho bonitinho',
+			url: 'http://veracepizza.com.br/saboresdozodiaco/',
+		}
+
+const btn = document.querySelector('.share-button');
+
+// Deve ser acionado algum tipo de "ativação do usuário"
+btn.addEventListener('click', async () => {
+  try {
+    await navigator.share(shareData)
+  } catch(err) {
+    resultPara.textContent = 'Error: ' + e
+  }
+});
+	</script>
 </body>
 </html>
