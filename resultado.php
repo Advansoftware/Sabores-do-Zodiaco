@@ -130,7 +130,7 @@
 
 				<!--<a href="https://api.whatsapp.com/send?text=Sabores do Zodíaco - http://srv254.teste.website/~veracepizza/signos/ " target="_blank" style="padding-right: 10px;"><img src="https://ideiasantenadas.com.br/wp-content/uploads/2017/10/whatsappesse200x200.png" width="40" alt="" /></a>-->
 				
-				<div class="share-button" data-layout="button" data-size="large" style="float: left;"><a target="_blank"><img src="images/bt-compartilhar.png" alt="" /></a></div>
+				<div onclick="share()" style="float: left;cursor:pointer;"><img src="images/bt-compartilhar.png" alt=""/></div>
 
 			</p>
 
@@ -147,22 +147,25 @@
 	
 
 	<script>
-		const shareData = {
+		
+
+// Deve ser acionado algum tipo de "ativação do usuário"
+ function share() {
+		if (navigator.share) {
+    navigator.share({
 			title: 'Sabores do Zodíaco - Verace Pizza',
 			text: 'Teste de compartilhamento com textinho bonitinho',
 			url: 'http://veracepizza.com.br/saboresdozodiaco/',
-		}
+    }).then(() => {
+      console.log('Compartilhado com sucesso!');
+    })
+    .catch(console.error);
+} else {
+    // fallback
+}
+}
 
-const btn = document.querySelector('.share-button');
 
-// Deve ser acionado algum tipo de "ativação do usuário"
-btn.addEventListener('click', async () => {
-  try {
-    await navigator.share(shareData)
-  } catch(err) {
-    resultPara.textContent = 'Error: ' + e
-  }
-});
 	</script>
 </body>
 </html>
