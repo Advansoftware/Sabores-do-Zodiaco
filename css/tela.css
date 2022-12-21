@@ -1021,7 +1021,7 @@
 
 @media screen and (min-width: 1201px) and (max-width: 1300px) {
 	
-	.ast_banner_text {height: 1080px;}
+	.ast_banner_text {height: 100vh;}
 
 	.ast_slider_wrapper.ast_index_tarot {
 		height: 1080px;
@@ -1123,7 +1123,7 @@
 
 @media screen and (min-width: 1301px) and (max-width: 1350px) {
 	
-	.ast_banner_text {height: 1080px;}
+	.ast_banner_text {height: 100vh;}
 
 	.ast_slider_wrapper.ast_index_tarot {
 		height: 1080px;

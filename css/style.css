@@ -5106,6 +5106,7 @@ li.ast_search , li.ast_cart{
 }
 .ast_slider_wrapper.ast_index_tarot{
 	background-image:linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(../images/bg-zodiaco.jpg);
+    background-size: cover;
 }
 .ast_slider_wrapper.ast_index_palmistry{
 	background-image:linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(../images/bg-zodiaco.jpg);

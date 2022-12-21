@@ -58,9 +58,9 @@
 		
 		.btdarmatch{display: none;}
 		
-		/*.ast_slider_wrapper.ast_index_tarot {height: 1080px;}
+		.ast_slider_wrapper.ast_index_tarot {height: 100vh;}
 		
-		.ast_banner_text{height: 1080px;}*/
+		.ast_banner_text{height: 100vh;}
 		
 		.hvsigno1{position: absolute;z-index: 99999999;padding: 10px;top: -25%;font-weight: 100;width: 100%;display: none;}
 		
