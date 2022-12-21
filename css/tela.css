@@ -1,0 +1,1998 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width: 900px){
+			.ast_header_bottom {margin-top: 40px !important;}
+	
+			.btgemeos:hover{background-image: url(../images/signos/gemeos-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+		
+			.btcancer:hover{background-image: url(../images/signos/cancer-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.btleao:hover{background-image: url(../images/signos/leao-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.btvirgem:hover{background-image: url(../images/signos/virgem-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.btlibra:hover{background-image: url(../images/signos/libra-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.btescorpiao:hover{background-image: url(../images/signos/escorpiao-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.btsagitario:hover{background-image: url(../images/signos/sagitario-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.btcapricornio:hover{background-image: url(images/signos/capricornio-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.btaquario:hover{background-image: url(../images/signos/aquario-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.btpeixes:hover{background-image: url(../images/signos/peixes-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.btaries:hover{background-image: url(images/signos/aries-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.bttouro:hover{background-image: url(../images/signos/touro-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+
+			.activegemeos{background-image: url(../images/signos/gemeos-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activecancer{background-image: url(../images/signos/cancer-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activeleao{background-image: url(../images/signos/leao-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activevirgem{background-image: url(../images/signos/virgem-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activelibra{background-image: url(../images/signos/libra-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activeescorpiao{background-image: url(../images/signos/escorpiao-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activesagitario{background-image: url(../images/signos/sagitario-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activecapricornio{background-image: url(../images/signos/capricornio-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activeaquario{background-image: url(../images/signos/aquario-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activepeixes{background-image: url(../images/signos/peixes-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activearies{background-image: url(../images/signos/aries-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+
+			.activetouro{background-image: url(../images/signos/touro-hover-respo.png) !important; background-repeat: no-repeat; background-position: center;}
+}
+
+@media only screen and (max-device-width: 400px) {
+				
+			.ast_slider_wrapper.ast_index_tarot {
+				height: 1500px;
+				background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(http://veracepizza.com.br/saboresdozodiaco/images/bg-zodiaco-tablet.jpg);
+			}
+			
+			.ast_banner_text {
+				height: 1500px;
+			}
+			
+			.ast_header_bottom {
+				margin-top: 40px !important;
+			}
+	
+			.btdarmatch{display: block;left: 21%;bottom: 3%;position: absolute;}
+			
+			.hvpositivo{top: 33%;}
+			
+			.hvvirgem2{padding: 0px;}
+			
+			.hvsigno1 {top: -30%;padding: 0px;}
+			
+			.textosigno {
+				width: 100%;
+				margin-top: -12%;
+				padding-top: 0%;
+			}
+
+			.textosigno2 {
+				width: 100%;
+				padding-top: 0%;
+				bottom: 0px;
+				padding-bottom: 53%;
+			}
+			
+			.bgsignos {
+				background: url(../images/bg_signos_respo.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				left: 0%;
+				width: 350px;
+				height: 351px;
+				position: relative;
+				margin: 0 auto;
+				top: 19%;
+			}
+			.signo1 {
+				position: relative;
+				top: -10%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+			
+			.signo2 {
+				position: relative;
+				top: 42%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+			
+			.rot span{height: 165px !important;width: 60px !important;}
+			
+			.bgsignos2{
+			background: url("../images/bg_signos_respo.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			right: 0%;width: 100%;height: 400px;top: 66%;position: absolute;
+		}
+			.coracao {
+				top: 49%;
+				right: -28%;
+				width: 100%;
+			}
+			
+			.signosimg{left: 25%;width: 200px;top: 28%;}
+
+			.virgemimg{left: 25%;width: 190px;top: 29%;}
+			
+			.gemeosimg{left: 30%;width: 160px;top: 30.5%;}
+			
+			.signos2img{right: 21%;width: 205px;top: 73%;}
+			
+			.aries2img{right: 28%;width: 170px;top: 74%;}
+
+			.virgem2img{right: 24%;width: 190px;top: 73%;}
+			
+			.gemeos2img{right: 28%;width: 160px;top: 75%;}
+	
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+	
+	.ast_slider_wrapper.ast_index_tarot {
+				height: 1500px;
+				background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(http://veracepizza.com.br/saboresdozodiaco/images/bg-zodiaco-tablet.jpg);
+			}
+			
+			.ast_banner_text {
+				height: 1500px;
+			}
+			
+			.ast_header_bottom {
+				margin-top: 40px !important;
+			}
+	
+			.btdarmatch{display: block;left: 21%;bottom: 3%;position: absolute;}
+			
+			.hvpositivo{top: 33%;}
+			
+			.hvvirgem2{padding: 0px;}
+			
+			.hvsigno1 {top: -30%;padding: 0px;}
+			
+			.textosigno {
+				width: 100%;
+				margin-top: -12%;
+				padding-top: 0%;
+			}
+
+			.textosigno2 {
+				width: 100%;
+				padding-top: 0%;
+				bottom: 0px;
+				padding-bottom: 53%;
+			}
+			
+			.bgsignos {
+				background: url(../images/bg_signos_respo.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				left: 0%;
+				width: 350px;
+				height: 351px;
+				position: relative;
+				margin: 0 auto;
+				top: 19%;
+			}
+			.signo1 {
+				position: relative;
+				top: -10%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+			
+			.signo2 {
+				position: relative;
+				top: 42%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+			
+			.rot span{height: 165px !important;width: 60px !important;}
+			
+			.bgsignos2{
+			background: url("../images/bg_signos_respo.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			right: 0%;width: 100%;height: 400px;top: 66%;position: absolute;
+		}
+			.coracao {
+				top: 49%;
+				right: -28%;
+				width: 100%;
+			}
+			
+			.signosimg{left: 29%;width: 180px;top: 29%;}
+	
+			.ariesimg{left: 29%;width: 180px;top: 29%;}
+
+			.virgemimg{left: 27%;width: 170px;top: 29%;}
+			
+			.gemeosimg{left: 31%;width: 160px;top: 30%;}
+			
+			.signos2img{right: 27%;width: 180px;top: 73%;}
+			
+			.aries2img{right: 30%;width: 170px;top: 74%;}
+
+			.virgem2img{right: 29%;width: 190px;top: 73%;}
+			
+			.gemeos2img{right: 31%;width: 160px;top: 75%;}
+	
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
+	
+			.ast_slider_wrapper.ast_index_tarot {
+				height: 1400px;
+				background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(http://veracepizza.com.br/saboresdozodiaco/images/bg-zodiaco-tablet.jpg);
+			}
+			
+			.ast_banner_text {
+				height: 1400px;
+			}
+			
+			.ast_header_bottom {
+				margin-top: 40px !important;
+			}
+	
+			.logozodiaco {
+				width: 46% !important;
+			}
+			
+			.bgsignos {
+				background: url(../images/bg_signos_respo.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				left: 0%;
+				width: 350px;
+				height: 351px;
+				position: relative;
+				margin: 0 auto;
+				top: 20.5%;
+			}
+	
+			.textosigno {width: 100%;margin-top: -5%;padding-top: 0%;}
+	
+			.signo1 {
+				position: relative;
+				top: -11%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+	
+			.gemeosimg{left: 36%;width: 160px;top: 32%;}
+	
+			.signosimg{left: 32%;width: 200px;top: 30%;}
+	
+			.ariesimg{left: 32%;width: 200px;top: 30%;}
+
+			.virgemimg{left: 32%;width: 190px;top: 30%;}
+	
+			.coracao {top: 52%;right: -34%;width: 100%;}
+			
+			.bgsignos2{
+				background: url("../images/bg_signos_respo.png");
+				background-repeat: no-repeat;
+				background-position: center center;
+				width: 100%;height: 400px;top: 67%;
+			}
+		
+			.signo2 {
+				position: relative;
+				top: 41%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+	
+			.textosigno2 {
+				width: 100%;
+				padding-top: 0%;
+				bottom: 0px;
+				padding-bottom: 27%;
+				right: 0%;
+			}
+	
+			.signos2img{right: 31%;width: 205px;top: 74%;}
+			
+			.aries2img{right: 35%;width: 170px;top: 75%;}
+
+			.virgem2img{right: 36%;width: 180px;top: 75%;}
+			
+			.gemeos2img{right: 35%;width: 160px;top: 76%;}
+	
+			.btdarmatch{display: block;bottom: 1%;position: absolute;width: 236px;left: 50%;margin-left: -118px;}
+			
+			.hvpositivo{top: 33%;}
+			
+			.hvvirgem2{padding: 0px;}
+			
+			.hvsigno1 {top: -30%;padding: 0px;}
+			
+			.rot span{height: 165px !important;width: 60px !important;}
+	
+}
+
+@media screen and (min-width: 601px) and (max-width: 700px) {
+	
+		.ast_slider_wrapper.ast_index_tarot {
+				height: 1400px;
+				background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(http://veracepizza.com.br/saboresdozodiaco/images/bg-zodiaco-tablet.jpg);
+			}
+			
+			.ast_banner_text {
+				height: 1400px;
+			}
+			
+			.ast_header_bottom {
+				margin-top: 40px !important;
+			}
+	
+			.logozodiaco {
+				width: 46% !important;
+			}
+			
+			.bgsignos {
+				background: url(../images/bg_signos_respo.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				left: 0%;
+				width: 350px;
+				height: 351px;
+				position: relative;
+				margin: 0 auto;
+				top: 20.5%;
+			}
+	
+			.textosigno {width: 100%;margin-top: -5%;padding-top: 0%;}
+	
+			.signo1 {
+				position: relative;
+				top: -11%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+	
+			.gemeosimg{left: 38%;width: 160px;top: 32%;}
+	
+			.signosimg{left: 35%;width: 200px;top: 30%;}
+	
+			.ariesimg{left: 35%;width: 200px;top: 30%;}
+
+			.virgemimg{left: 34%;width: 190px;top: 30%;}
+	
+			.coracao {top: 52%;right: -34%;width: 100%;}
+			
+			.bgsignos2{
+				background: url("../images/bg_signos_respo.png");
+				background-repeat: no-repeat;
+				background-position: center center;
+				width: 100%;height: 400px;top: 67%;
+			}
+		
+			.signo2 {
+				position: relative;
+				top: 41%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+	
+			.textosigno2 {
+				width: 100%;
+				padding-top: 0%;
+				bottom: 0px;
+				padding-bottom: 27%;
+				right: 0%;
+			}
+	
+			.signos2img{right: 34%;width: 205px;top: 74%;}
+			
+			.aries2img{right: 37%;width: 170px;top: 75%;}
+
+			.virgem2img{right: 36%;width: 180px;top: 75%;}
+			
+			.gemeos2img{right: 37%;width: 160px;top: 76%;}
+	
+			.btdarmatch{display: block;bottom: 1%;position: absolute;width: 236px;left: 50%;margin-left: -118px;}
+			
+			.hvpositivo{top: 33%;}
+			
+			.hvvirgem2{padding: 0px;}
+			
+			.hvsigno1 {top: -30%;padding: 0px;}
+			
+			.rot span{height: 165px !important;width: 60px !important;}
+	
+}
+
+@media screen and (min-width: 701px) and (max-width: 800px) {
+			
+			.ast_slider_wrapper.ast_index_tarot {
+				height: 1400px;
+				background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(http://veracepizza.com.br/saboresdozodiaco/images/bg-zodiaco-tablet.jpg);
+			}
+			
+			.ast_banner_text {
+				height: 1400px;
+			}
+			
+			.ast_header_bottom {
+				margin-top: 40px !important;
+			}
+	
+			.logozodiaco {
+				width: 46% !important;
+			}
+			
+			.bgsignos {
+				background: url(../images/bg_signos_respo.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				left: 0%;
+				width: 350px;
+				height: 351px;
+				position: relative;
+				margin: 0 auto;
+				top: 20.5%;
+			}
+	
+			.textosigno {width: 100%;margin-top: -5%;padding-top: 0%;}
+	
+			.signo1 {
+				position: relative;
+				top: -11%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+	
+			.gemeosimg{left: 39%;width: 160px;top: 32%;}
+	
+			.signosimg{left: 37%;width: 200px;top: 30%;}
+
+			.virgemimg{left: 36%;width: 190px;top: 30%;}
+	
+			.ariesimg{left: 37%;width: 200px;top: 30%;}
+	
+			.coracao {top: 52%;right: -38%;width: 100%;}
+			
+			.bgsignos2{
+				background: url("../images/bg_signos_respo.png");
+				background-repeat: no-repeat;
+				background-position: center center;
+				width: 100%;height: 400px;top: 67%;
+			}
+		
+			.signo2 {
+				position: relative;
+				top: 41%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+	
+			.textosigno2 {
+				width: 100%;
+				padding-top: 0%;
+				bottom: 0px;
+				padding-bottom: 21%;
+				right: 0%;
+			}
+	
+			.signos2img{right: 36%;width: 205px;top: 74%;}
+			
+			.aries2img{right: 39%;width: 170px;top: 76%;}
+
+			.virgem2img{right: 39%;width: 180px;top: 75%;}
+			
+			.gemeos2img{right: 39%;width: 160px;top: 76%;}
+	
+			.btdarmatch{display: block;bottom: 1%;position: absolute;width: 236px;left: 50%;margin-left: -118px;}
+			
+			.hvpositivo{top: 33%;}
+			
+			.hvvirgem2{padding: 0px;}
+			
+			.hvsigno1 {top: -30%;padding: 0px;}
+			
+			.rot span{height: 165px !important;width: 60px !important;}
+	
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+	
+			.ast_slider_wrapper.ast_index_tarot {
+				height: 1400px;
+				background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(http://veracepizza.com.br/saboresdozodiaco/images/bg-zodiaco-tablet.jpg);
+			}
+			
+			.ast_banner_text {
+				height: 1400px;
+			}
+			
+			.ast_header_bottom {
+				margin-top: 40px !important;
+			}
+	
+			.logozodiaco {
+				width: 30% !important;
+			}
+	
+			.col-sm-8 {width: 100%;}
+			
+			.bgsignos {
+				background: url(../images/bg_signos_respo.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				left: 0%;
+				width: 350px;
+				height: 351px;
+				position: relative;
+				margin: 0 auto;
+				top: 22%;
+			}
+	
+			.textosigno {width: 100%;margin-top: 3%;padding-top: 0%;}
+	
+			.signo1 {
+				position: relative;
+				top: -5%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+	
+			.gemeosimg{left: 40.5%;width: 160px;top: 29%;}
+	
+			.signosimg{left: 38%;width: 200px;top: 27%;}
+
+			.virgemimg{left: 38%;width: 190px;top: 27%;}
+	
+			.ariesimg{left: 39%;width: 170px;top: 28%;}
+	
+			.coracao {top: 50%;right: -38%;width: 100%;}
+			
+			.bgsignos2{
+				background: url("../images/bg_signos_respo.png");
+				background-repeat: no-repeat;
+				background-position: center center;
+				width: 100%;height: 400px;top: 66%;
+			}
+		
+			.signo2 {
+				position: relative;
+				top: 41%;
+				float: none;
+				margin-left: 0%;
+				width: 290px;
+				margin: 0px auto;
+			}
+	
+			.textosigno2 {
+				width: 100%;
+				padding-top: 0%;
+				bottom: 0px;
+				padding-bottom: 21%;
+				right: 0%;
+			}
+	
+			.signos2img{right: 38%;width: 205px;top: 73%;}
+			
+			.aries2img{right: 40%;width: 170px;top: 75%;}
+
+			.virgem2img{right: 41%;width: 180px;top: 74%;}
+			
+			.gemeos2img{right: 40%;width: 160px;top: 75%;}
+	
+			.btdarmatch{display: block;bottom: 1%;position: absolute;width: 236px;left: 50%;margin-left: -118px;}
+			
+			.hvpositivo{top: -35%;}
+			
+			.hvvirgem2{padding: 0px;}
+			
+			.hvsigno1 {top: -30%;padding: 0px;}
+			
+			.rot span{height: 165px !important;width: 60px !important;}
+	
+}
+
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+			.hvvirgem2{top: -30%;}
+			
+			.textosigno{
+			 	width: 100%;
+				margin-top: -16%;
+				padding-top: 0%;}
+
+			.textosigno2{
+				width: 100%;
+				padding-top: 0%;
+				right: 0%;
+			    bottom: 0px;
+			    padding-bottom: 17%;}
+
+			.ast_banner_text {height: 1400px;}
+			
+			.ast_slider_wrapper.ast_index_tarot {
+				background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(../images/bg-zodiaco-tablet.jpg);
+				height: 1400px;
+			}
+			
+			.col-md-3 {
+				width: 20% !important;
+			}
+			.col-md-8 {
+				width: 60%;
+			}
+			.logozodiaco {
+				width: 21% !important;
+			}
+			
+			.bgsignos {
+				background: url(../images/bg_signos_500.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				left: 0%;
+				width: 500px;
+				height: 501px;
+				position: relative;
+				margin: 0 auto;
+				top: 15%;
+			}
+			.bgsignos2 {
+				background: url(../images/bg_signos_500.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				width: 100%;
+				height: 501px;
+				top: 63%;
+			}
+			
+			
+			.coracao{top: 52%;
+				right: 0%;
+				left: 50%;
+				margin-left: -50px;
+				width: 100px;}
+			
+			.botaomatch {
+				margin-top: 185%;
+			}
+			
+			.signo1 {
+				top: -23%;
+				position: relative;
+				float: none;
+				margin-left: 0%;
+				width: 400px;
+				margin: 0px auto;
+			}
+			
+			.rot span {
+				height: 230px !important;
+				width: 80px !important;
+			}
+			
+			.signo2 {
+				position: relative;
+				top: 25%;
+				float: none;
+				margin-left: 0%;
+				width: 400px;
+				margin: 0px auto;
+			}
+			
+			.signosdet{padding-left: 0%; padding-right: 0%;}
+			
+			.signosimg {
+				left: 37%;
+				width: 260px;
+				top: 23%;
+			}
+	
+			.ariesimg{left: 38%;width: 230px;top: 25%;}
+			
+			.gemeosimg {
+				left: 39%;
+				width: 210px;
+				top: 26%;
+			}
+			
+			.virgemimg {
+				left: 36%;
+				width: 250px;
+				top: 23%;
+			}
+			
+			.gemeos2img {
+				right: 40%;
+				width: 200px;
+				top: 74%;
+			}
+			
+			.signos2img {
+				right: 36%;
+				width: 270px;
+				top: 71%;
+			}
+			
+			.aries2img{right: 39%;width: 230px;top: 73%;}
+			
+			.virgem2img {
+				right: 39%;
+				width: 240px;
+				top: 72%;
+			}
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
+	
+			.hvvirgem2{top: -30%;}
+			
+			.textosigno{
+				width: 100%;
+				padding-top: 0%;
+    			margin-top: -30%;}
+
+			.textosigno2{
+				width: 100%;
+				padding-top: 0%;
+				right: 0%;
+			    bottom: 0px;
+			    padding-bottom: 16%;}
+
+			.ast_banner_text {height: 1400px;}
+			
+			.ast_slider_wrapper.ast_index_tarot {
+				background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(../images/bg-zodiaco-tablet.jpg);
+				height: 1400px;
+			}
+			
+			.col-md-3 {
+				width: 20% !important;
+			}
+			.col-md-8 {
+				width: 60%;
+			}
+			.logozodiaco {
+				width: 21% !important;
+			}
+			
+			.bgsignos {
+				background: url(../images/bg_signos_500.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				left: 0%;
+				width: 500px;
+				top: 9%;
+				margin: 0 auto;
+				position: relative;
+			}
+			.bgsignos2 {
+				background: url(../images/bg_signos_500.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				right: 0%;
+				width: 500px;
+				top: 9%;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			.coracao{top: 52%;
+				right: 0%;
+				width: 100px;
+				margin-left: -50px;
+				left: 50%;}
+			
+			.botaomatch {
+				margin-top: 185%;
+			}
+			
+			.signo1 {
+				top: 11%;
+				width: 500px;
+				left: 50%;
+				margin-left: -210px;
+			}
+			
+			.rot span {
+				height: 230px !important;
+				width: 80px !important;
+			}
+			
+			.signo2 {
+				margin-top: 0%;
+				position: absolute;
+				top: 59%;
+				width: 500px;
+				left: 50%;
+				margin-left: -210px;
+			}
+			
+			.signosdet{padding-left: 0%; padding-right: 0%;}
+			
+			.signosimg {
+				left: 37%;
+				width: 260px;
+				top: 25%;
+			}
+	
+			.ariesimg{left: 38%;width: 230px;top: 25%;}
+			
+			.gemeosimg {
+				left: 40%;
+				width: 210px;
+				top: 26%;
+			}
+			
+			.virgemimg {
+				left: 36%;
+				width: 250px;
+				top: 24%;
+			}
+			
+			.gemeos2img {
+				right: 40%;
+				width: 200px;
+				top: 74%;
+			}
+			
+			.signos2img {
+				right: 37%;
+				width: 270px;
+				top: 71%;
+			}
+			
+			.aries2img{right: 39%;width: 230px;top: 73%;}
+			
+			.virgem2img {
+				right: 39%;
+				width: 240px;
+				top: 72%;
+			}	
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1200px) {
+	
+			.hvvirgem2{top: -30%;}
+			
+			.textosigno{
+				width: 100%;
+				padding-top: 0%;
+    			margin-top: -30%;}
+
+			.textosigno2{
+				width: 100%;
+				padding-top: 0%;
+				right: 0%;
+			    bottom: 0px;
+			    padding-bottom: 16%;}
+
+			.ast_banner_text {height: 1400px;}
+			
+			.ast_slider_wrapper.ast_index_tarot {
+				background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) , url(../images/bg-zodiaco-tablet.jpg);
+				height: 1400px;
+			}
+			
+			.col-md-3 {
+				width: 20% !important;
+			}
+			.col-md-8 {
+				width: 60%;
+			}
+			.logozodiaco {
+				width: 21% !important;
+			}
+			
+			.bgsignos {
+				background: url(../images/bg_signos_500.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				left: 0%;
+				width: 500px;
+				top: 9%;
+				margin: 0 auto;
+				position: relative;
+			}
+			.bgsignos2 {
+				background: url(../images/bg_signos_500.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				right: 0%;
+				width: 500px;
+				top: 9%;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			.coracao{top: 52%;
+				right: 0%;
+				width: 100px;
+				margin-left: -50px;
+				left: 50%;}
+			
+			.botaomatch {
+				margin-top: 185%;
+			}
+			
+			.signo1 {
+				top: 11%;
+				width: 500px;
+				left: 50%;
+				margin-left: -210px;
+			}
+			
+			.rot span {
+				height: 230px !important;
+				width: 80px !important;
+			}
+			
+			.signo2 {
+				margin-top: 0%;
+				position: absolute;
+				top: 59%;
+				width: 500px;
+				left: 50%;
+				margin-left: -210px;
+			}
+			
+			.signosdet{padding-left: 0%; padding-right: 0%;}
+			
+			.signosimg {
+				left: 39%;
+				width: 260px;
+				top: 24%;
+			}
+	
+			.ariesimg{left: 40%;width: 230px;top: 25%;}
+			
+			.gemeosimg {
+				left: 40%;
+				width: 210px;
+				top: 26%;
+			}
+			
+			.virgemimg {
+				left: 38%;
+				width: 250px;
+				top: 24%;
+			}
+			
+			.gemeos2img {
+				right: 41%;
+				width: 200px;
+				top: 74%;
+			}
+			
+			.signos2img {
+				right: 38%;
+				width: 270px;
+				top: 71%;
+			}
+			
+			.aries2img{right: 39%;width: 230px;top: 73%;}
+			
+			.virgem2img {
+				right: 41%;
+				width: 240px;
+				top: 72%;
+			}
+	
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+	
+	.ast_banner_text {height: 1080px;}
+
+	.ast_slider_wrapper.ast_index_tarot {
+		height: 1080px;
+	}
+
+	.textosigno{
+		width: 45%;
+		padding-top: 29%;}
+
+	.textosigno2{
+		width: 45%;
+		padding-top: 30%;
+		right: 0%;
+	}
+
+	.ast_banner_text {padding-bottom: 5%;}
+
+	.bgsignos {
+		background: url(../images/bg_signos_500.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 45%;
+		top: 13%;
+	}
+
+	.bgsignos2 {
+		background: url(../images/bg_signos_500.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		right: 0%;
+		width: 45%;
+		height: 670px;
+		position: absolute;
+		top: 13%;
+	}
+
+	.rot span {
+		height: 240px !important;
+		width: 80px !important;
+	}
+
+	.signo1 {
+		top: 28%;
+		margin-left: 9%;
+	}
+
+	.signo2 {
+		margin-right: 3%;
+		margin-top: 13%;
+	}
+	
+	.ariesimg{left: 12%;width: 260px;top: 32%;}
+
+	.gemeosimg {
+		left: 12%;
+		width: 260px;
+		top: 32%;
+	}
+
+	.signosimg {
+		left: 11%;
+		width: 300px;
+		top: 29%;
+	}
+
+	.virgemimg {
+		left: 10%;
+		width: 290px;
+		top: 29.5%;
+	}
+
+	.signos2img {
+		right: 11%;
+		width: 300px;
+		top: 30%;
+	}
+
+	.aries2img{right: 13%;width: 260px;top: 32%;}
+
+	.gemeos2img {
+		right: 13.5%;
+		width: 240px;
+		top: 33%;
+	}
+
+	.virgem2img {
+		right: 12%;
+		width: 290px;
+		top: 30%;
+	}
+
+	.coracao {top: 30%; right: 44%;}
+
+	.botaomatch {
+		margin-top: 55%;
+	}
+	
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1350px) {
+	
+	.ast_banner_text {height: 1080px;}
+
+	.ast_slider_wrapper.ast_index_tarot {
+		height: 1080px;
+	}
+
+	.textosigno{
+		width: 45%;
+		padding-top: 26%;}
+
+	.textosigno2{
+		width: 45%;
+		padding-top: 27%;
+		right: 0%;
+	}
+
+	.ast_banner_text {padding-bottom: 5%;}
+
+	.bgsignos {
+		background: url(../images/bg_signos_500.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 45%;
+		top: 13%;
+	}
+
+	.bgsignos2 {
+		background: url(../images/bg_signos_500.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		right: 0%;
+		width: 45%;
+		height: 670px;
+		position: absolute;
+		top: 13%;
+	}
+
+	.rot span {
+		height: 240px !important;
+	}
+
+	.signo1 {
+		top: 28%;
+		margin-left: 9.5%;
+	}
+
+	.signo2 {
+		margin-right: 2.5%;
+		margin-top: 12.5%;
+	}
+	
+	.ariesimg{left: 12%;width: 260px;top: 32%;}
+
+	.gemeosimg {
+		left: 12%;
+		width: 260px;
+		top: 32%;
+	}
+
+	.signosimg {
+		left: 11%;
+		width: 300px;
+		top: 29%;
+	}
+
+	.virgemimg {
+		left: 10%;
+		width: 290px;
+		top: 29.5%;
+	}
+
+	.signos2img {
+		right: 11%;
+		width: 300px;
+		top: 30%;
+	}
+
+	.aries2img{right: 13%;width: 260px;top: 32%;}
+
+	.gemeos2img {
+		right: 13.5%;
+		width: 240px;
+		top: 33%;
+	}
+
+	.virgem2img {
+		right: 12%;
+		width: 290px;
+		top: 30%;
+	}
+
+	.coracao {top: 30%; right: 44%;}
+
+	.botaomatch {
+		margin-top: 55%;
+	}
+	
+}
+
+@media screen and (min-width: 1351px) and (max-width: 1400px) {
+	
+	.ast_banner_text {height: 1080px;}
+
+	.ast_slider_wrapper.ast_index_tarot {
+		height: 1080px;
+	}
+
+	.textosigno{
+		width: 45%;
+		padding-top: 26%;}
+
+	.textosigno2{
+		width: 45%;
+		padding-top: 27%;
+		right: 0%;
+	}
+
+	.ast_banner_text {padding-bottom: 5%;}
+
+	.bgsignos {
+		background: url(../images/bg_signos_500.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 45%;
+		top: 13%;
+	}
+
+	.bgsignos2 {
+		background: url(../images/bg_signos_500.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		right: 0%;
+		width: 45%;
+		height: 670px;
+		position: absolute;
+		top: 13%;
+	}
+
+	.rot span {
+		height: 240px !important;
+	}
+
+	.signo1 {
+		top: 28%;
+		margin-left: 9.5%;
+	}
+
+	.signo2 {
+		margin-right: 2.5%;
+		margin-top: 12.5%;
+	}
+	
+	.ariesimg{left: 12%;width: 260px;top: 32%;}
+
+	.gemeosimg {
+		left: 12%;
+		width: 260px;
+		top: 32%;
+	}
+
+	.signosimg {
+		left: 11%;
+		width: 300px;
+		top: 29%;
+	}
+
+	.virgemimg {
+		left: 10%;
+		width: 290px;
+		top: 29.5%;
+	}
+
+	.signos2img {
+		right: 11%;
+		width: 300px;
+		top: 30%;
+	}
+
+	.aries2img{right: 13%;width: 260px;top: 32%;}
+
+	.gemeos2img {
+		right: 13.5%;
+		width: 240px;
+		top: 33%;
+	}
+
+	.virgem2img {
+		right: 12%;
+		width: 290px;
+		top: 30%;
+	}
+
+	.coracao {top: 30%; right: 44%;}
+
+	.botaomatch {
+		margin-top: 55%;
+	}
+	
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1500px) {
+	
+	.ast_banner_text {height: 1080px;}
+
+	.ast_slider_wrapper.ast_index_tarot {
+		height: 1080px;
+	}
+	
+	.hvvirgem2{top: -28%;}
+
+	.textosigno{
+		width: 45%;
+		padding-top: 25%;}
+
+	.textosigno2{
+		width: 45%;
+		padding-top: 26%;
+		right: 0%;
+	}
+
+	.ast_banner_text {padding-bottom: 5%;}
+
+	.bgsignos {
+		background: url(../images/bg_signos_500.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 45%;
+		top: 13%;
+	}
+
+	.bgsignos2 {
+		background: url(../images/bg_signos_500.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		right: 0%;
+		width: 45%;
+		height: 670px;
+		position: absolute;
+		top: 13%;
+	}
+
+	.rot span {
+		height: 240px !important;
+	}
+
+	.signo1 {
+		top: 28%;
+		margin-left: 11%;
+	}
+
+	.signo2 {
+		margin-right: 1.5%;
+		margin-top: 10%;
+	}
+	
+	.ariesimg{left: 12%;width: 260px;top: 32%;}
+
+	.gemeosimg {
+		left: 14%;
+		width: 240px;
+		top: 33%;
+	}
+
+	.signosimg {
+		left: 12%;
+		width: 300px;
+		top: 29%;
+	}
+
+	.virgemimg {
+		left: 10%;
+		width: 290px;
+		top: 29.5%;
+	}
+
+	.signos2img {
+		right: 12%;
+		width: 300px;
+		top: 30%;
+	}
+
+	.aries2img{right: 14%;width: 260px;top: 32%;}
+
+	.gemeos2img {
+		right: 13.5%;
+		width: 240px;
+		top: 33%;
+	}
+
+	.virgem2img {
+		right: 12%;
+		width: 290px;
+		top: 30%;
+	}
+
+	.coracao {top: 30%; right: 44%;}
+
+	.botaomatch {
+		margin-top: 55%;
+	}
+	
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+	
+	.ast_banner_text {height: 1080px;}
+
+	.ast_slider_wrapper.ast_index_tarot {
+		height: 1080px;
+	}
+	
+	.hvvirgem2{top: -28%;}
+
+	.textosigno{
+		width: 45%;
+		padding-top: 23%;}
+
+	.textosigno2{
+		width: 45%;
+		padding-top: 24%;
+		right: 0%;
+	}
+
+	.ast_banner_text {padding-bottom: 5%;}
+
+	.bgsignos {
+		background: url(../images/bg_signos_500.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 45%;
+		top: 13%;
+	}
+
+	.bgsignos2 {
+		background: url(../images/bg_signos_500.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		right: 0%;
+		width: 45%;
+		height: 670px;
+		position: absolute;
+		top: 13%;
+	}
+
+	.rot span {
+		height: 240px !important;
+	}
+
+	.signo1 {
+		top: 28%;
+		margin-left: 11.5%;
+	}
+
+	.signo2 {
+		margin-right: 0.5%;
+		margin-top: 9%;
+	}
+	
+	.ariesimg{left: 14%;width: 260px;top: 32%;}
+
+	.gemeosimg {
+		left: 15%;
+		width: 240px;
+		top: 33%;
+	}
+
+	.signosimg {
+		left: 13%;
+		width: 300px;
+		top: 30%;
+	}
+
+	.virgemimg {
+		left: 12%;
+		width: 290px;
+		top: 29.5%;
+	}
+
+	.signos2img {
+		right: 13%;
+		width: 300px;
+		top: 30%;
+	}
+
+	.aries2img{right: 14%;width: 260px;top: 32%;}
+
+	.gemeos2img {
+		right: 14.5%;
+		width: 240px;
+		top: 34%;
+	}
+
+	.virgem2img {
+		right: 14%;
+		width: 290px;
+		top: 30%;
+	}
+
+	.coracao {top: 30%; right: 44%;}
+
+	.botaomatch {
+		margin-top: 55%;
+	}
+	
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
+	
+	.ast_banner_text {height: 1080px;}
+
+	.ast_slider_wrapper.ast_index_tarot {
+		height: 1080px;
+	}
+	
+	.hvvirgem2{top: -28%;}
+
+	.textosigno{
+		width: 45%;
+		padding-top: 30%;}
+
+	.textosigno2{
+		width: 45%;
+		padding-top: 30%;
+		right: 0%;
+	}
+
+	.ast_banner_text {padding-bottom: 5%;}
+
+	.bgsignos {
+		width: 45%;
+		top: 25%;
+	}
+
+	.bgsignos2 {
+		width: 45%;
+		top: 25%;
+	}
+
+	.signo1 {
+		top: 36%;
+		margin-left: 10%;
+	}
+
+	.signo2 {
+		margin-right: 2%;
+		margin-top: 13%;
+	}
+	
+	.ariesimg{left: 12.5%;top: 41%;}
+
+	.gemeosimg {
+		left: 14%;
+		width: 300px;
+		top: 43%;
+	}
+
+	.signosimg {
+		left: 13%;
+		top: 40%;
+	}
+
+	.virgemimg {
+		left: 12%;
+		top: 39.5%;
+	}
+
+	.signos2img {
+		right: 12%;
+		top: 40%;
+	}
+
+	.aries2img{right: 13%;top: 41%;}
+
+	.gemeos2img {
+		right: 13%;
+		width: 300px;
+		top: 43%;
+	}
+
+	.virgem2img {
+		right: 13%;
+		top: 40%;
+	}
+
+	.coracao {top: 30%; right: 44%;}
+	
+}
+
+@media screen and (min-width: 1701px) and (max-width: 1800px) {
+	
+	.ast_banner_text {height: 1080px;}
+
+	.ast_slider_wrapper.ast_index_tarot {
+		height: 1080px;
+	}
+	
+	.hvvirgem2{top: -28%;}
+
+	.textosigno{
+		width: 45%;
+		padding-top: 28%;}
+
+	.textosigno2{
+		width: 45%;
+		padding-top: 29%;
+		right: 0%;
+	}
+
+	.ast_banner_text {padding-bottom: 5%;}
+
+	.bgsignos {
+		width: 45%;
+		top: 25%;
+	}
+
+	.bgsignos2 {
+		width: 45%;
+		top: 25%;
+	}
+
+	.signo1 {
+		top: 36%;
+		margin-left: 11%;
+	}
+
+	.signo2 {
+		margin-right: 1%;
+		margin-top: 11%;
+	}
+	
+	.ariesimg{left: 12.5%;top: 41%;}
+
+	.gemeosimg {
+		left: 14%;
+		width: 300px;
+		top: 43%;
+	}
+
+	.signosimg {
+		left: 13%;
+		top: 40%;
+	}
+
+	.virgemimg {
+		left: 12%;
+		top: 39.5%;
+	}
+
+	.signos2img {
+		right: 12%;
+		top: 40%;
+	}
+
+	.aries2img{right: 13%;top: 41%;}
+
+	.gemeos2img {
+		right: 13%;
+		width: 300px;
+		top: 43%;
+	}
+
+	.virgem2img {
+		right: 13%;
+		top: 40%;
+	}
+
+	.coracao {top: 30%;
+    right: 0%;
+    left: 50%;
+    margin-left: -81.50px;}
+	
+}
+
+@media screen and (min-width: 1801px) and (max-width: 1900px) {
+	
+	.ast_banner_text {height: 1080px;}
+
+	.ast_slider_wrapper.ast_index_tarot {
+		height: 1080px;
+	}
+	
+	.hvvirgem2{top: -28%;}
+
+	.textosigno{
+		width: 45%;
+		padding-top: 26%;}
+
+	.textosigno2{
+		width: 45%;
+		padding-top: 27%;
+		right: 0%;
+	}
+
+	.ast_banner_text {padding-bottom: 5%;}
+
+	.bgsignos {
+		width: 45%;
+		top: 25%;
+	}
+
+	.bgsignos2 {
+		width: 45%;
+		top: 25%;
+	}
+
+	.signo1 {
+		top: 36%;
+		margin-left: 11%;
+	}
+
+	.signo2 {
+		margin-right: 0.5%;
+		margin-top: 10%;
+	}
+	
+	.ariesimg{left: 12.5%;top: 41%;}
+
+	.gemeosimg {
+		left: 14%;
+		width: 300px;
+		top: 43%;
+	}
+
+	.signosimg {
+		left: 13%;
+		top: 40%;
+	}
+
+	.virgemimg {
+		left: 12%;
+		top: 39.5%;
+	}
+
+	.signos2img {
+		right: 13%;
+		top: 40%;
+	}
+
+	.aries2img{right: 14%;top: 41%;}
+
+	.gemeos2img {
+		right: 14%;
+		width: 300px;
+		top: 43%;
+	}
+
+	.virgem2img {
+		right: 13%;
+		top: 40%;
+	}
+
+	.coracao {top: 30%;
+    right: 0%;
+    left: 50%;
+    margin-left: -81.50px;}
+	
+}
+
+@media screen and (min-width: 1901px) and (max-width: 1950px) {
+	
+	.ast_banner_text {height: 1080px;}
+
+	.ast_slider_wrapper.ast_index_tarot {
+		height: 1080px;
+	}
+	
+	.hvvirgem2{top: -28%;}
+
+	.textosigno{
+		width: 45%;
+		padding-top: 25%;}
+
+	.textosigno2{
+		width: 45%;
+		padding-top: 25%;
+		right: 0%;
+	}
+
+	.ast_banner_text {padding-bottom: 5%;}
+
+	.bgsignos {
+		width: 45%;
+		top: 25%;
+	}
+
+	.bgsignos2 {
+		width: 45%;
+		top: 25%;
+	}
+
+	.signo1 {
+		top: 36%;
+		margin-left: 12%;
+	}
+
+	.signo2 {
+		margin-right: 0.5%;
+		margin-top: 10%;
+	}
+	
+	.ariesimg{left: 13.5%;top: 41%;}
+
+	.gemeosimg {
+		left: 14%;
+		width: 300px;
+		top: 43%;
+	}
+
+	.signosimg {
+		left: 14%;
+		top: 40%;
+	}
+
+	.virgemimg {
+		left: 13%;
+		top: 39.5%;
+	}
+
+	.signos2img {
+		right: 14%;
+		top: 40%;
+	}
+
+	.aries2img{right: 14%;top: 41%;}
+
+	.gemeos2img {
+		right: 14%;
+		width: 300px;
+		top: 42%;
+	}
+
+	.virgem2img {
+		right: 14%;
+		top: 39%;
+	}
+
+	.coracao {top: 30%;
+    right: 0%;
+    left: 50%;
+    margin-left: -81.50px;}
+	
+}
+
+@media screen and (min-width: 1951px) and (max-width: 2000px) {
+	
+	.ast_banner_text {height: 1080px;}
+
+	.ast_slider_wrapper.ast_index_tarot {
+		height: 1080px;
+	}
+	
+	.hvvirgem2{top: -28%;}
+
+	.textosigno{
+		width: 45%;
+		padding-top: 25%;}
+
+	.textosigno2{
+		width: 45%;
+		padding-top: 25%;
+		right: 0%;
+	}
+
+	.ast_banner_text {padding-bottom: 5%;}
+
+	.bgsignos {
+		width: 45%;
+		top: 25%;
+	}
+
+	.bgsignos2 {
+		width: 45%;
+		top: 25%;
+	}
+
+	.signo1 {
+		top: 36%;
+		margin-left: 12%;
+	}
+
+	.signo2 {
+		margin-right: 0%;
+		margin-top: 10%;
+	}
+	
+	.ariesimg{left: 13.5%;top: 41%;}
+
+	.gemeosimg {
+		left: 14%;
+		width: 300px;
+		top: 43%;
+	}
+
+	.signosimg {
+		left: 14%;
+		top: 40%;
+	}
+
+	.virgemimg {
+		left: 13%;
+		top: 39.5%;
+	}
+
+	.signos2img {
+		right: 14%;
+		top: 40%;
+	}
+
+	.aries2img{right: 14%;top: 41%;}
+
+	.gemeos2img {
+		right: 14%;
+		width: 300px;
+		top: 42%;
+	}
+
+	.virgem2img {
+		right: 14%;
+		top: 39%;
+	}
+
+	.coracao {top: 30%;
+    right: 0%;
+    left: 50%;
+    margin-left: -81.50px;}
+	
+}
+	
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2100px) {
+	
+}
+
+@media screen and (min-width: 2101px) and (max-width: 2200px) {
+	
+}
+
+@media screen and (min-width: 2201px) and (max-width: 2300px) {
+	
+}
+
+@media screen and (min-width: 2301px) and (max-width: 2400px) {
+	
+}
+
+@media screen and (min-width: 2400px) and (max-width: 2500px) {
+	
+}
+
+@media screen and (min-width: 2501px) and (max-width: 2600px) {
+	
+}
+
+@media screen and (min-width: 2601px) and (max-width: 2700px) {
+	
+}
+
+@media screen and (min-width: 2701px) and (max-width: 2800px) {
+	
+}
+
+@media screen and (min-width: 2801px) and (max-width: 2900px) {
+	
+}
+
+@media screen and (min-width: 2901px) and (max-width: 3000px) {
+	
+}
+
+@media screen and (min-width: 3001px) and (max-width: 3100px) {
+	
+}

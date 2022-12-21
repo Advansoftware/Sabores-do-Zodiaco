@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+.starfield{
+			-webkit-animation: myfirst 1s 2; /* Safari 4.0 - 8.0 */
+			  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+			  animation: myfirst 1s infinite;
+			  animation-direction: alternate;
+		}
+		
+		@-webkit-keyframes myfirst {
+		  0%   {opacity: 0.2;}
+		  25%  {opacity: 0.4;}
+		  50%  {opacity: 0.6;}
+		  75%  {opacity: 0.8;}
+		  100% {opacity: 1;}
+		}
+
+		@keyframes myfirst {
+		  0%   {opacity: 0.2;}
+		  25%  {opacity: 0.4;}
+		  50%  {opacity: 0.6;}
+		  75%  {opacity: 0.8;}
+		  100% {opacity: 1;}
+		}
+		
+		
+		@-webkit-keyframes myfirst1 {
+		  0%   {opacity: 1;}
+		  25%  {opacity: 0.8;}
+		  50%  {opacity: 0.6;}
+		  75%  {opacity: 0.4;}
+		  100% {opacity: 0.2;}
+		}
+
+		@keyframes myfirst1 {
+		  0%   {opacity: 1;}
+		  25%  {opacity: 0.8;}
+		  50%  {opacity: 0.6;}
+		  75%  {opacity: 0.4;}
+		  100% {opacity: 0.2;}
+		}
+		
+		.starfield > *{
+			-webkit-animation-name: none;
+			background-size: 200px 200px;
+			background-image: -webkit-radial-gradient(2px 2px at 40px 60px, #cccccc, rgba(0, 0, 0, 0)), -webkit-radial-gradient(2px 2px at 20px 50px, #dddddd, rgba(0, 0, 0, 0)), -webkit-radial-gradient(2px 2px at 30px 100px, #eeeeee, rgba(0, 0, 0, 0)), -webkit-radial-gradient(2px 2px at 40px 60px, #ffffff, rgba(0, 0, 0, 0)), -webkit-radial-gradient(3px 3px at 110px 90px, #cccccc, rgba(0, 0, 0, 0)), -webkit-radial-gradient(2px 2px at 190px 150px, #dddddd, rgba(0, 0, 0, 0));
+    		background-image: radial-gradient(4px 4px at 40px 60px, #cccccc, rgba(0, 0, 0, 0)), radial-gradient(2px 2px at 20px 50px, #dddddd, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 30px 100px, #eeeeee, rgba(0, 0, 0, 0)), radial-gradient(2px 2px at 40px 60px, #ffffff, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 110px 90px, #cccccc, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 190px 150px, #dddddd, rgba(0, 0, 0, 0));
+		}
+		
+		.starfield > *:nth-child(1) {
+			-webkit-animation: myfirst1 1s 2; /* Safari 4.0 - 8.0 */
+			  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+			  animation: myfirst1 1s infinite;
+			  animation-direction: alternate;
+			
+		}
+		
+		.btdarmatch{display: none;}
+		
+		/*.ast_slider_wrapper.ast_index_tarot {height: 1080px;}
+		
+		.ast_banner_text{height: 1080px;}*/
+		
+		.hvsigno1{position: absolute;z-index: 99999999;padding: 10px;top: -25%;font-weight: 100;width: 100%;display: none;}
+		
+		.hvvirgem2{position: absolute;z-index: 99999999;padding: 10px;top: 27%;font-weight: 100;width: 100%;display: none;}
+		
+		.textosigno{width: 43%; padding-top: 27%;position: absolute;}
+		
+		.textosigno2{width: 43%; padding-top: 28%;position: absolute; right: -1%;}
+		
+		.signosdet{width: 100%; display: inline-flex; padding-top: 3%; padding-left: 4%; padding-right: 4%;}
+		
+		.signosdet span{padding-right: 30px;}
+		
+		.bgsignos{
+			background: url("../images/bg_signos.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			left: 0%;width: 42%;height: 670px;position: absolute;top: 21%;
+		}
+		
+		.bgsignos2{
+			background: url("../images/bg_signos.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			right: 0%;width: 41%;height: 670px;position: absolute;top: 21%;
+		}
+		
+		.signo1{position: absolute;top: 32%; float: left;margin-left: 10%;}
+
+		.signo2{float: right;margin-top: 10%;width: 36%;}
+		
+		.botaomatch{margin-top: 50%;}
+		
+		.coracao{width: 163px;
+			position: absolute;
+			top: 45%;
+			right: 45%}
+		
+		.signosimg{left: 12%;width: 334px;height: 342px;position: absolute;top: 35%; display: none;}
+
+		.ariesimg{left: 12%;width: 334px;height: 342px;position: absolute;top: 35%; display: none;}
+		
+		.gemeosimg{left: 12%;width: 334px;height: 342px;position: absolute;top: 35%; display: none;}
+
+		.virgemimg{left: 11%;width: 334px;height: 342px;position: absolute;top: 34%; display: none;}
+		
+		.signos2img{right: 10%;width: 334px;height: 342px;position: absolute;top: 35%; display: none;}
+		
+		.gemeos2img{right: 11%;width: 334px;height: 342px;position: absolute;top: 37%; display: none;}
+
+		.virgem2img{right: 12%;width: 334px;height: 342px;position: absolute;top: 33%; display: none;}
+		
+		.aries2img{right: 11%;width: 320px;height: 342px;position: absolute;top: 36%; display: none;}
+		
+		.rot {
+		-webkit-transform: rotate(-35deg);
+		-moz-transform: rotate(-35deg);
+		-ms-transform: rotate(-35deg);
+		-o-transform: rotate(-35deg);
+		transform: rotate(-35deg);
+		}
+
+		.rot span {
+		-webkit-transform: rotate(30deg);
+		-moz-transform: rotate(30deg);
+		-ms-transform: rotate(30deg);
+		-o-transform: rotate(30deg);
+		transform: rotate(30deg);
+		height: 300px;
+		position: absolute;
+		width: 90px;
+		left: 0;
+		top: 0;
+		-webkit-transform-origin: bottom center;
+		-moz-transform-origin: bottom center;
+		-ms-transform-origin: bottom center;
+		-o-transform-origin: bottom center;
+		transform-origin: bottom center;
+		}
+
+		input{color: #000;}
+		
+		/*.rot a:hover img{background: #000;}*/
+		
+		.btgemeos:hover{background-image: url(../images/signos/gemeos-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.btcancer:hover{background-image: url(../images/signos/cancer-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.btleao:hover{background-image: url(../images/signos/leao-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.btvirgem:hover{background-image: url(../images/signos/virgem-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.btlibra:hover{background-image: url(../images/signos/libra-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.btescorpiao:hover{background-image: url(../images/signos/escorpiao-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.btsagitario:hover{background-image: url(../images/signos/sagitario-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.btcapricornio:hover{background-image: url(../images/signos/capricornio-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.btaquario:hover{background-image: url(../images/signos/aquario-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.btpeixes:hover{background-image: url(../images/signos/peixes-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.btaries:hover{background-image: url(../images/signos/aries-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.bttouro:hover{background-image: url(../images/signos/touro-hover.png); background-repeat: no-repeat; background-position: center;}
+
+		
+		.activegemeos{background-image: url(../images/signos/gemeos-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activecancer{background-image: url(../images/signos/cancer-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activeleao{background-image: url(../images/signos/leao-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activevirgem{background-image: url(../images/signos/virgem-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activelibra{background-image: url(../images/signos/libra-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activeescorpiao{background-image: url(../images/signos/escorpiao-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activesagitario{background-image: url(../images/signos/sagitario-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activecapricornio{background-image: url(../images/signos/capricornio-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activeaquario{background-image: url(../images/signos/aquario-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activepeixes{background-image: url(../images/signos/peixes-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activearies{background-image: url(../images/signos/aries-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.activetouro{background-image: url(../images/signos/touro-hover.png); background-repeat: no-repeat; background-position: center;}
+		
+		.botaocombina{margin: 0 auto;}
