@@ -18,7 +18,10 @@
 
 	<style>
 		.logozodiaco{float: right;width: 22%;}
-		
+		.btn-share{
+			background-color: transparent;
+			border: none;
+		}
 		.ast_banner_text{height: 1080px;}
 		
 		.ast_slider_wrapper.ast_index_tarot{height: 1080px;}
@@ -130,7 +133,7 @@
 
 				<!--<a href="https://api.whatsapp.com/send?text=Sabores do Zodíaco - http://srv254.teste.website/~veracepizza/signos/ " target="_blank" style="padding-right: 10px;"><img src="https://ideiasantenadas.com.br/wp-content/uploads/2017/10/whatsappesse200x200.png" width="40" alt="" /></a>-->
 				
-				<div onclick="share()" style="float: left;cursor:pointer;"><img src="images/bt-compartilhar.png" alt=""/></div>
+				<button class="btn-share" style="float: left;cursor:pointer;"><img src="images/bt-compartilhar.png" alt=""/></button>
 
 			</p>
 
@@ -147,24 +150,48 @@
 	
 
 	<script>
-		
-
+	function toDataURL(src, callback, outputFormat) {
+  var img = new Image();
+  img.crossOrigin = 'Anonymous';
+  img.onload = function() {
+    var canvas = document.createElement('CANVAS');
+    var ctx = canvas.getContext('2d');
+    var dataURL;
+    canvas.height = this.naturalHeight;
+    canvas.width = this.naturalWidth;
+    ctx.drawImage(this, 0, 0);
+    dataURL = canvas.toDataURL(outputFormat);
+    callback(dataURL);
+  };
+  img.src = src;
+  if (img.complete || img.complete === undefined) {
+    img.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
+    img.src = src;
+  }
+}
 // Deve ser acionado algum tipo de "ativação do usuário"
- function share() {
-		if (navigator.share) {
-    navigator.share({
-			title: 'Sabores do Zodíaco - Verace Pizza',
-			text: 'Teste de compartilhamento com textinho bonitinho',
-			url: 'http://veracepizza.com.br/saboresdozodiaco/',
-    }).then(() => {
-      console.log('Compartilhado com sucesso!');
-    })
-    .catch(console.error);
-} else {
-    // fallback
-}
-}
+document.querySelector(".btn-share").addEventListener("click", async(event)=>{
+	event.preventDefault();
+	const dataUrl = document.querySelector(".pizza-signos img").src;
+	let urlItem;
+	toDataURL(dataUrl, async function(dataUrl) {
+		
+	const blob = await (await fetch(dataUrl)).blob();
+  const image = new File([blob], 'canvas.png', { type: blob.type });
 
+	if (navigator.canShare && navigator.canShare({ files: [image] })) {
+	navigator.share({
+		files: [image],        // Array of files to share
+		title: 'Sabores do Zodíaco - Verace Pizza',
+		text: 'Faça você também nosso teste',
+		url: 'https://veracepizza.com.br/saboresdozodiaco/',
+	}).then(() => {
+		console.log('Compartilhado com sucesso!');
+	})
+	.catch(console.error());
+	}
+});
+});
 
 	</script>
 </body>
